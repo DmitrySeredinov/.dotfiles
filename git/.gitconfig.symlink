@@ -12,6 +12,9 @@
   st    = status
   subup = submodule update --recursive --init
   hub   = !hub
+  ignore 	= !git update-index --assume-unchanged
+  unignore 	= !git update-index --no-assume-unchanged
+  ignored 	= !git ls-files -v | grep ^[a-z]
 
 [color]
   branch = auto
@@ -38,3 +41,13 @@
 
 [diff]
   algorithm = patience
+
+[user]
+  name = Jonathan Crooke
+  email = joncrooke@gmail.com
+
+[merge]
+  tool = opendiff
+
+[hub]
+  protocol = git
