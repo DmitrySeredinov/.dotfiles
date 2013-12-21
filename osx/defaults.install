@@ -4,6 +4,8 @@
 
 ## OS X Settings
 
+command -v defaults >/dev/null 2>&1 || { exit 0; }
+
 # Disable Resume system-wide
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 

@@ -2,6 +2,8 @@
 #
 # Safari specific settings
 
+command -v defaults >/dev/null 2>&1 || { exit 0; }
+
 # Hide Safari's bookmark bar.
 defaults write com.apple.Safari ShowFavoritesBar -bool false
 

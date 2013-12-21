@@ -2,6 +2,8 @@
 #
 # Flux specific settings
 
+command -v defaults >/dev/null 2>&1 || { exit 0; }
+
 # Set the night color to 3000K
 defaults write org.herf.Flux nightColorTemp 3000
 
