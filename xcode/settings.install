@@ -11,7 +11,8 @@ defaults write com.apple.dt.Xcode DVTTextEditorTrimTrailingWhitespace -bool true
 defaults write com.apple.dt.Xcode DVTTextEditorTrimWhitespaceOnlyLines -bool true
 
 # Show invisible characters
-defaults write com.apple.dt.Xcode DVTTextShowInvisibleCharacters -bool true
+#defaults write com.apple.dt.Xcode DVTTextShowInvisibleCharacters -bool true
+defaults write com.apple.dt.Xcode DVTTextShowInvisibleCharacters -bool false
 
 # Show line numbers
 defaults write com.apple.dt.Xcode DVTTextShowLineNumbers -bool true
