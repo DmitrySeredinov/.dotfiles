@@ -1,0 +1,23 @@
+#!/bin/sh
+
+function map {
+	exit 0
+}
+
+DROPBOX=~/Dropbox
+APP_DATA=$DROPBOX/.AppSupport
+RELATIVE=`cat $APP_DATA 2>/dev/null`
+
+if [ -z "$RELATIVE" ]; then
+	echo Could not read relative path from $APP_DATA
+	exit 1
+fi
+
+APP_SUPPORT=$DROPBOX/$RELATIVE/AppSupport.dat
+
+if [ ! -f "$APP_SUPPORT" ]; then
+	echo Could not read map from $APP_SUPPORT
+	exit 1
+fi
+
+cat $APP_SUPPORT
