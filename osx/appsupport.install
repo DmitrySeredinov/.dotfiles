@@ -20,4 +20,8 @@ if [ ! -f "$APP_SUPPORT" ]; then
 	exit 1
 fi
 
-cat $APP_SUPPORT
+while read -r LINE
+do
+	IFS=',' read -a PARAMS <<< "${LINE}"
+	echo ${PARAMS[0]} - ${PARAMS[1]}
+done < "$APP_SUPPORT"
