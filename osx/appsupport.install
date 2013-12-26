@@ -17,6 +17,9 @@ if [ ! -f "$APP_SUPPORT" ]; then
 	exit 1
 fi
 
+echo Symlinking Application Support...
+echo
+
 while read -r LINE
 do
 	IFS=',' read -a PARAMS <<< "${LINE}"
@@ -24,18 +27,25 @@ do
 	SOURCE=`eval echo $SETTINGS/${PARAMS[0]}`
 	DEST=`eval echo ${PARAMS[1]}`
 
-	echo Link $SOURCE to $DEST...
+	echo Link "'${PARAMS[0]}'" to "'$DEST'"...
 
 	if [ ! -d "$SOURCE" ]; then
 		echo Source path "$SOURCE" does not exist... Aborting
 		exit 1
 	fi
 
-	if [ -d "$DEST" ]; then
+	if [ -e "$DEST" ]; then
 		echo Destination "$DEST" exists. Deleting...
 		rm -rf "$DEST"
 	fi	
 
 	ln -s "$SOURCE" "$DEST"
+	if [ $? -ne 0 ]; then
+        echo "Linking failed. Aborting..."
+        exit 1
+    else
+    	echo "Linked"
+    	echo
+    fi
 
 done < "$APP_SUPPORT"
