@@ -1,9 +1,5 @@
 #!/bin/sh
 
-function map {
-	exit 0
-}
-
 DROPBOX=~/Dropbox
 APP_DATA=$DROPBOX/.AppSupport
 RELATIVE=`cat $APP_DATA 2>/dev/null`
@@ -13,7 +9,8 @@ if [ -z "$RELATIVE" ]; then
 	exit 1
 fi
 
-APP_SUPPORT=$DROPBOX/$RELATIVE/AppSupport.dat
+SETTINGS=$DROPBOX/$RELATIVE
+APP_SUPPORT=$SETTINGS/AppSupport.dat
 
 if [ ! -f "$APP_SUPPORT" ]; then
 	echo Could not read map from $APP_SUPPORT
@@ -23,5 +20,22 @@ fi
 while read -r LINE
 do
 	IFS=',' read -a PARAMS <<< "${LINE}"
-	echo ${PARAMS[0]} - ${PARAMS[1]}
+	
+	SOURCE=`eval echo $SETTINGS/${PARAMS[0]}`
+	DEST=`eval echo ${PARAMS[1]}`
+
+	echo Link $SOURCE to $DEST...
+
+	if [ ! -d "$SOURCE" ]; then
+		echo Source path "$SOURCE" does not exist... Aborting
+		exit 1
+	fi
+
+	if [ -d "$DEST" ]; then
+		echo Destination "$DEST" exists. Trashing...
+		mv "$DEST" ~/.Trash
+	fi	
+
+	ln -s "$SOURCE" "$DEST"
+
 done < "$APP_SUPPORT"
