@@ -32,8 +32,8 @@ do
 	fi
 
 	if [ -d "$DEST" ]; then
-		echo Destination "$DEST" exists. Trashing...
-		mv "$DEST" ~/.Trash
+		echo Destination "$DEST" exists. Deleting...
+		rm -rf "$DEST"
 	fi	
 
 	ln -s "$SOURCE" "$DEST"
