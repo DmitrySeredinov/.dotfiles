@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if which sw_vers &> /dev/null; then
+  git config --global credential.helper osxkeychain
+else
+  git config --global --unset credential.helper
+fi
+
+

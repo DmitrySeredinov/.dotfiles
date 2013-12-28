@@ -33,9 +33,6 @@
   remote = origin
   merge  = refs/heads/development
 
-[credential]
-  helper = osxkeychain
-
 [rerere]
   enabled = true
 
