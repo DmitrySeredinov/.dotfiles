@@ -52,7 +52,7 @@ ZSH_THEME_GIT_PROMPT_BEHIND_COLOR=$FG[009]
 
 
 function ssh_prompt() {
-  if [ $SSH_CONNECTION ]; then echo "%{$fg_bold[white]%}%M "; fi
+  if [ $SSH_CONNECTION ]; then echo "%{$fg_bold[white]%}%n@%M "; fi
 }
 
 function left_prompt() {
