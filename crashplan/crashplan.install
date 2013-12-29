@@ -2,4 +2,8 @@
 
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 
-sudo ln -s `pwd`/crashplan/CrashPlan\ Server.app /Applications/CrashPlan\ Server.app
+DEST=/Applications/CrashPlan\ Server.app
+if [ -e "$DEST" ]; then
+  rm -rf "$DEST"
+fi
+sudo ln -s `pwd`/crashplan/CrashPlan\ Server.app "$DEST"
