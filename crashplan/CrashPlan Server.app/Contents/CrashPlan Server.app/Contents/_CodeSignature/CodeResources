@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/.git_remember_this_folder</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Info.plist</key>
+		<data>
+		wJvict3Dw75r2WWLjvXZ9HCw+Sg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/MacOS/CrashPlan menu bar</key>
+		<data>
+		puUkS5t54B0wa4ca7RY681kQXsc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/English.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/English.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sskef4ZCcbCmacUmp7/KPJaoQsU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/English.lproj/MainMenu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3aTjucyObaKSabq/JDZ486TKtAk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/French.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i1uUYhRHwep6cZ+L3NO1lz6tHE0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/French.lproj/MainMenu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3aTjucyObaKSabq/JDZ486TKtAk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/German.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w55mklSDPe8CSy8wuHP3MiiP1Vo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/German.lproj/MainMenu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3aTjucyObaKSabq/JDZ486TKtAk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/Spanish.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rD37BZzHWI08ZOfkyYCOftLwaAk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/Spanish.lproj/MainMenu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3aTjucyObaKSabq/JDZ486TKtAk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_computer_status_complete.png</key>
+		<data>
+		baCTkh+p/2UPz+4tF8JJ9z770Yc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_computer_status_offline.png</key>
+		<data>
+		9tf1djEZF0EGT4uwIk+lrq2Uphg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_computer_status_safe.png</key>
+		<data>
+		SJlCo1Dpt1dV0T4Jj9SvbgiJvic=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_computer_status_severe.png</key>
+		<data>
+		Z6hclfJ0ZfL7Rr1J2CgpSxfaT9A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_computer_status_warning.png</key>
+		<data>
+		awaFSUTGQnBF7wKNe4TrG4KCrO8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_icon_clicked.png</key>
+		<data>
+		IWwi77To3/BWWjly0NqzYpOsJ18=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim0.png</key>
+		<data>
+		4cKVupN5gLfeoAiGha7ByVf5FS8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim1.png</key>
+		<data>
+		NaoSkCPuSit/Q1OPgZqcHJgybkA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim10.png</key>
+		<data>
+		+1jcEczzOHQKkEcfVzwnTB2ecAs=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim11.png</key>
+		<data>
+		HuKAHK70lxdJ2K2Ivcbv+aFEEI8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim12.png</key>
+		<data>
+		sAusRt+97v0n4Kd23RCWeuYdmzw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim13.png</key>
+		<data>
+		z7ZpaAuazI18YrYf0xvE0VL8kro=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim14.png</key>
+		<data>
+		P9QTZASWcoNvYIiIIJE0G68LVuY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim15.png</key>
+		<data>
+		YGXbXHpC0BflJLtPBU7qaSypigQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim16.png</key>
+		<data>
+		NswI7LIxT1ji41405WL5ImmXREM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim17.png</key>
+		<data>
+		6zpA/3g41sjLnMLjWk1COcobu3A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim18.png</key>
+		<data>
+		Zb9mfT4+8sAKO0w6wCxIfqOeQ+Q=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim19.png</key>
+		<data>
+		42DUpON4XO8annd+FJNN79n3f4U=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim2.png</key>
+		<data>
+		HzJvDX9cIFR+MWlapv+HP9MKxBU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim20.png</key>
+		<data>
+		eudnODVea+lRvVt9uSPI2g689s8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim21.png</key>
+		<data>
+		0w9uDsqX5kmN9VG2JxBvSWE8fd8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim22.png</key>
+		<data>
+		Cz6/8QzrAbq0dHuPmKiK1BgFFvU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim23.png</key>
+		<data>
+		vrxHoXiz7UKAiyKFFiptt9y19mg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim24.png</key>
+		<data>
+		sDcJYMXLveP6nBn/xrK0uTyzKLE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim25.png</key>
+		<data>
+		UXpflPWb5IaY6KX1lPseU57+7H4=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim26.png</key>
+		<data>
+		wCktaTF105hZTrV4kHKqJpGdhBw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim3.png</key>
+		<data>
+		coXzHxxycTzuhGqvA7u8k5A8MEE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim4.png</key>
+		<data>
+		9xD0ppJFV4+lrP/FVZteccnFH00=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim5.png</key>
+		<data>
+		NMpXJwe5mJyjn72miBzGH4lwVPA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim6.png</key>
+		<data>
+		/nja/5DPjpkP4arrQNhssFXf/BA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim7.png</key>
+		<data>
+		/pzYZZfKB7uzX26QwtEboLTw6Ag=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim8.png</key>
+		<data>
+		ogL93KqWNV9qWjpmWEhtdx+d2T4=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_active_anim9.png</key>
+		<data>
+		bNOcpg3D5I3aWlxT1CpLmQL4gW8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_complete.png</key>
+		<data>
+		4cKVupN5gLfeoAiGha7ByVf5FS8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_complete_alert.png</key>
+		<data>
+		T2IZcu0N2K7DGYDAtmEqy+EL5Kw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_gray.png</key>
+		<data>
+		a1sXP5wIS2qjtuwXoiFfh89NZ0g=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_paused.png</key>
+		<data>
+		f7WAWZ7HywudwQyXAGQcm6QfKyw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_safe.png</key>
+		<data>
+		52hUdVIFLBZSyqb2kiDwm2nJWYY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_safe_alert.png</key>
+		<data>
+		NWaVtPXbV0tFafvejvq50jZviTc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_severe.png</key>
+		<data>
+		SH6GRPeV7W0qeV9suBSvsN4HUTk=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_severe_alert.png</key>
+		<data>
+		k4FRB+LE8pKYIrFpLoNd1W5YUnM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_warning.png</key>
+		<data>
+		xfksxnQAe+c+DHjWi3jtq/FNla0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_cp_status_warning_alert.png</key>
+		<data>
+		LiJD1ttIHuEgEDHq/iNfYhKmKVs=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_info.png</key>
+		<data>
+		xg6wlkrO475wDYDXYu0KljmajmA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_info_small.png</key>
+		<data>
+		BSZDdHm3376Gu716fS5YfP11BXg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_invisible.png</key>
+		<data>
+		lkMZ4wGZ4Mpckr/4piyJbTcvTTg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_pause.png</key>
+		<data>
+		pekUmIXbBYS+cnXYuXrBe93tUwU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_pause_gray.png</key>
+		<data>
+		p+P7NNSAcjwH0MlD/rbIbobSkjw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_play.png</key>
+		<data>
+		edoCa0410MXGInTNU8AiTp31XRQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/colors_play_gray.png</key>
+		<data>
+		ErpuqXjmTGbf9EyJy7t5FAusC2Y=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/computer_status_complete.png</key>
+		<data>
+		baCTkh+p/2UPz+4tF8JJ9z770Yc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/computer_status_offline.png</key>
+		<data>
+		9tf1djEZF0EGT4uwIk+lrq2Uphg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/computer_status_safe.png</key>
+		<data>
+		SJlCo1Dpt1dV0T4Jj9SvbgiJvic=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/computer_status_severe.png</key>
+		<data>
+		Z6hclfJ0ZfL7Rr1J2CgpSxfaT9A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/computer_status_warning.png</key>
+		<data>
+		awaFSUTGQnBF7wKNe4TrG4KCrO8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_icon_clicked.png</key>
+		<data>
+		IWwi77To3/BWWjly0NqzYpOsJ18=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots1.png</key>
+		<data>
+		+EKescXvoEYFKbBlFzImdBLyabE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots10.png</key>
+		<data>
+		ajKEVJhPt/6Ta3XsArCQ41Cr/GM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots11.png</key>
+		<data>
+		1G15Z6vCLvjNpLKDrMxq4b7okWA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots12.png</key>
+		<data>
+		KF2CSh2jh0J9IRXPokxcw2zw14U=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots13.png</key>
+		<data>
+		j8ntRAgDKIzBOeDJGVXPafeZgXg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots14.png</key>
+		<data>
+		Ty7LTRtEe/2agidMXSGJdIOQWU4=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots15.png</key>
+		<data>
+		wTRYWJK4gRJJuMLzZM2lHVRvGA4=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots16.png</key>
+		<data>
+		zICbxNv9+9WIVUHzqf+TBSkMS0s=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots17.png</key>
+		<data>
+		IjP5zztJSC/KXS/Hi7Ps2XT2S5k=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots18.png</key>
+		<data>
+		YgPkjWEOvyD4lrUk67neBozgjZQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots19.png</key>
+		<data>
+		oYtCqqa8ItbHXCYaMmVO3lJSY9k=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots2.png</key>
+		<data>
+		2CgcSolPKrnS57yheX4sqA54nSw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots20.png</key>
+		<data>
+		CdS+YbETLLc1DVWj3+1NVjmW/Z4=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots21.png</key>
+		<data>
+		jFdNUE9tR4Ch6PLNVpCdrfU534M=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots3.png</key>
+		<data>
+		jU+disQHsm+0kBgKZbkN6Ht9At4=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots4.png</key>
+		<data>
+		PaMz1U2USKIC2C09JLWmHNDwdCQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots5.png</key>
+		<data>
+		obHo2vEYexoWClwA1dbSj4ZB6JE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots6.png</key>
+		<data>
+		Kvx2ZkpQkKV/oCe3kZz8t8wcSCQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots7.png</key>
+		<data>
+		lULKpkqsGIGbS6Fx382esCaeBCA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots8.png</key>
+		<data>
+		zxc5L7ybfSy/o7wjR7v/DKiB+UA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_active_anim_dots9.png</key>
+		<data>
+		AnD1lUSHBEPqTgb+3Nq9o00FeMU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_alert_dots.png</key>
+		<data>
+		9J5+L0O85EBfo1h8yruf9d571w0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_complete.png</key>
+		<data>
+		4cKVupN5gLfeoAiGha7ByVf5FS8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_complete_alert.png</key>
+		<data>
+		T2IZcu0N2K7DGYDAtmEqy+EL5Kw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_complete_dots.png</key>
+		<data>
+		GgGdq7m8AKLfZIBIVjSBEGlK5wY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_gray.png</key>
+		<data>
+		a1sXP5wIS2qjtuwXoiFfh89NZ0g=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_paused.png</key>
+		<data>
+		f7WAWZ7HywudwQyXAGQcm6QfKyw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_paused_dots.png</key>
+		<data>
+		LI9+A/mxn2821OsJRSE7WeFc+X8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_safe.png</key>
+		<data>
+		52hUdVIFLBZSyqb2kiDwm2nJWYY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_safe_alert.png</key>
+		<data>
+		NWaVtPXbV0tFafvejvq50jZviTc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_safe_dots.png</key>
+		<data>
+		+EKescXvoEYFKbBlFzImdBLyabE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_severe.png</key>
+		<data>
+		SH6GRPeV7W0qeV9suBSvsN4HUTk=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_severe_alert.png</key>
+		<data>
+		k4FRB+LE8pKYIrFpLoNd1W5YUnM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_warning.png</key>
+		<data>
+		xfksxnQAe+c+DHjWi3jtq/FNla0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/cp_status_warning_alert.png</key>
+		<data>
+		LiJD1ttIHuEgEDHq/iNfYhKmKVs=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/crashplan_status.icns</key>
+		<data>
+		S27+55Sbwn2bKHrVchX+D3cozeg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_computer_status_complete.png</key>
+		<data>
+		baCTkh+p/2UPz+4tF8JJ9z770Yc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_computer_status_offline.png</key>
+		<data>
+		9tf1djEZF0EGT4uwIk+lrq2Uphg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_computer_status_safe.png</key>
+		<data>
+		SJlCo1Dpt1dV0T4Jj9SvbgiJvic=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_computer_status_severe.png</key>
+		<data>
+		Z6hclfJ0ZfL7Rr1J2CgpSxfaT9A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_computer_status_warning.png</key>
+		<data>
+		awaFSUTGQnBF7wKNe4TrG4KCrO8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_icon_clicked.png</key>
+		<data>
+		pRu3yXIhsYR1iE6+jD91l2a7Nuk=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim0.png</key>
+		<data>
+		Gg7lzF7K1nKKtjFxRqMvjh8BzwM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim1.png</key>
+		<data>
+		Gg7lzF7K1nKKtjFxRqMvjh8BzwM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim10.png</key>
+		<data>
+		B1vxZaWdIyTP2LaFjZ5n2CjlfD8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim11.png</key>
+		<data>
+		Jx3ABmkVmNpG9G/4gPUy2CW4HGk=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim12.png</key>
+		<data>
+		xcs8Up06h9ONERpSbidKAMQZWY0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim13.png</key>
+		<data>
+		0k6fJQgzRiWAd8HXPiojqyNgcpQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim14.png</key>
+		<data>
+		OXL/RNI7UKCFHK2kaOAJagrA0pU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim15.png</key>
+		<data>
+		arsT1fzX7zGLi8WzAErNA7PLEpo=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim16.png</key>
+		<data>
+		rzkGoIt57V6bkE4TpQf4mudgr9k=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim17.png</key>
+		<data>
+		koSINEyJ+JKThjA29kj7/Rq+W1Q=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim18.png</key>
+		<data>
+		Q6lW22n4ya+CyOVc52QE63XsqHQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim19.png</key>
+		<data>
+		QyIGH8B1laaHOEAI48GdugrIsSw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim2.png</key>
+		<data>
+		NHoGrc5INLGLv8iY+SvhP/GZcQc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim20.png</key>
+		<data>
+		m+NjqmCiElINdfu+3q0fF9Xm/mM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim21.png</key>
+		<data>
+		z1mJwp1Pf+OTOSKgQ9W4SPuoudU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim3.png</key>
+		<data>
+		nxi5WZhZ4Y3DKuPv/cK6cbjUxJE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim4.png</key>
+		<data>
+		0ae3Bbma9imWk90z4nlVvUSo6wM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim5.png</key>
+		<data>
+		FK7bpJyatYaVbUv5Sc/ehE2wQvQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim6.png</key>
+		<data>
+		/gJO2ILdb//2hkqiDyx//MfovGY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim7.png</key>
+		<data>
+		LPBFf1NclUCiRHShVoYSTmR3Jes=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim8.png</key>
+		<data>
+		Wq/IS5FU1tu20WFTXoVBMbyrvtw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_active_anim9.png</key>
+		<data>
+		Fwxn7IpU1NNLHR1JOQVjImTUpPM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_complete.png</key>
+		<data>
+		RCjqFWky7KGZOoJZTRuRsmsLCVo=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_complete_alert.png</key>
+		<data>
+		+ZoGR0M8RxQk2YWLsN3cYXtAE7A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_gray.png</key>
+		<data>
+		Y21/BI+kmfD3aVIvUWCmX3yI+7g=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_paused.png</key>
+		<data>
+		VrUMOIYu/sX8dAAs7enY008XzeA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_safe.png</key>
+		<data>
+		Gg7lzF7K1nKKtjFxRqMvjh8BzwM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_safe_alert.png</key>
+		<data>
+		+ZoGR0M8RxQk2YWLsN3cYXtAE7A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_severe.png</key>
+		<data>
+		Gg7lzF7K1nKKtjFxRqMvjh8BzwM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_severe_alert.png</key>
+		<data>
+		+ZoGR0M8RxQk2YWLsN3cYXtAE7A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_warning.png</key>
+		<data>
+		Gg7lzF7K1nKKtjFxRqMvjh8BzwM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_cp_status_warning_alert.png</key>
+		<data>
+		+ZoGR0M8RxQk2YWLsN3cYXtAE7A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_info.png</key>
+		<data>
+		xg6wlkrO475wDYDXYu0KljmajmA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_info_small.png</key>
+		<data>
+		BSZDdHm3376Gu716fS5YfP11BXg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_invisible.png</key>
+		<data>
+		lkMZ4wGZ4Mpckr/4piyJbTcvTTg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_pause.png</key>
+		<data>
+		pekUmIXbBYS+cnXYuXrBe93tUwU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_pause_gray.png</key>
+		<data>
+		p+P7NNSAcjwH0MlD/rbIbobSkjw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_play.png</key>
+		<data>
+		edoCa0410MXGInTNU8AiTp31XRQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/dots_play_gray.png</key>
+		<data>
+		ErpuqXjmTGbf9EyJy7t5FAusC2Y=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_computer_status_complete.png</key>
+		<data>
+		baCTkh+p/2UPz+4tF8JJ9z770Yc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_computer_status_offline.png</key>
+		<data>
+		9tf1djEZF0EGT4uwIk+lrq2Uphg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_computer_status_safe.png</key>
+		<data>
+		SJlCo1Dpt1dV0T4Jj9SvbgiJvic=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_computer_status_severe.png</key>
+		<data>
+		Z6hclfJ0ZfL7Rr1J2CgpSxfaT9A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_computer_status_warning.png</key>
+		<data>
+		awaFSUTGQnBF7wKNe4TrG4KCrO8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_icon_clicked.png</key>
+		<data>
+		IWwi77To3/BWWjly0NqzYpOsJ18=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim0.png</key>
+		<data>
+		52hUdVIFLBZSyqb2kiDwm2nJWYY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim1.png</key>
+		<data>
+		HGxmWze6jfaTIB9JZrvDCxvIO0s=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim10.png</key>
+		<data>
+		s8wCIohp6QJVloEHI4KBipaUtlg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim11.png</key>
+		<data>
+		6ad4pM0nkrKUGkkNDIV/h+7dxas=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim12.png</key>
+		<data>
+		9+iaYog4tVLRYHxquVZarUPnSTw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim13.png</key>
+		<data>
+		/CaLO4hnf1vwoXGsGnZQUV3bSbw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim14.png</key>
+		<data>
+		t2DY+NNPmi01In1GOWh3vORdKm4=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim15.png</key>
+		<data>
+		b8aStZnhlE0ev42sRosDom5xdNs=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim16.png</key>
+		<data>
+		U7EBp44zZMU1vxV/87Ox8N7nFvk=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim17.png</key>
+		<data>
+		LiYoUuZA72/L+Klm9Z8WSjPYC4o=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim18.png</key>
+		<data>
+		YP9jNdg23/NNrX8qbEzm4GbgIEQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim19.png</key>
+		<data>
+		MecSrFUDMhhGdMl0H2OFgnB9dp0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim2.png</key>
+		<data>
+		mOWfGcNSwi9cv1QxeT6rf/n8mxs=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim20.png</key>
+		<data>
+		09D9aGYOJCqqa4o4EXIao3bzri0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim21.png</key>
+		<data>
+		J//kx1Xj8kNWzn/r35UfG9N28xk=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim22.png</key>
+		<data>
+		XHd3vXTYBKK1NTullzkMowRVFpE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim23.png</key>
+		<data>
+		IFODNYXG2Cto9VDle2yvsT70wfA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim24.png</key>
+		<data>
+		6YVjSLLmb3kFKion2iAVWKK3qPQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim25.png</key>
+		<data>
+		ZfXwCkDns5lX27CGq6UPfr9ZQUo=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim26.png</key>
+		<data>
+		GqaUvhGYGFIxnhfw/frErEN3pdQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim3.png</key>
+		<data>
+		COtW9zUAka1juz3uaOljh87vXJs=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim4.png</key>
+		<data>
+		x8IjHwR624A+5NHXrYiXpvVFU1k=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim5.png</key>
+		<data>
+		+QfSbxosxmuG2uP/euTJKmCoeiM=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim6.png</key>
+		<data>
+		gfwt5X6DiNxzNH7Y1GJYkabY00Q=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim7.png</key>
+		<data>
+		aLDZ7npDnfo+2Gho/Z80KBp4sbc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim8.png</key>
+		<data>
+		qhrud3e+6O12zzBt/xHi/pcLzXQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_active_anim9.png</key>
+		<data>
+		BtfcblP+9HrU0wd46xfX0z2r+Nc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_complete.png</key>
+		<data>
+		52hUdVIFLBZSyqb2kiDwm2nJWYY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_complete_alert.png</key>
+		<data>
+		NWaVtPXbV0tFafvejvq50jZviTc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_gray.png</key>
+		<data>
+		a1sXP5wIS2qjtuwXoiFfh89NZ0g=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_paused.png</key>
+		<data>
+		f7WAWZ7HywudwQyXAGQcm6QfKyw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_safe.png</key>
+		<data>
+		52hUdVIFLBZSyqb2kiDwm2nJWYY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_safe_alert.png</key>
+		<data>
+		NWaVtPXbV0tFafvejvq50jZviTc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_severe.png</key>
+		<data>
+		52hUdVIFLBZSyqb2kiDwm2nJWYY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_severe_alert.png</key>
+		<data>
+		NWaVtPXbV0tFafvejvq50jZviTc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_warning.png</key>
+		<data>
+		52hUdVIFLBZSyqb2kiDwm2nJWYY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_cp_status_warning_alert.png</key>
+		<data>
+		NWaVtPXbV0tFafvejvq50jZviTc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_info.png</key>
+		<data>
+		xg6wlkrO475wDYDXYu0KljmajmA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_info_small.png</key>
+		<data>
+		BSZDdHm3376Gu716fS5YfP11BXg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_invisible.png</key>
+		<data>
+		lkMZ4wGZ4Mpckr/4piyJbTcvTTg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_pause.png</key>
+		<data>
+		pekUmIXbBYS+cnXYuXrBe93tUwU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_pause_gray.png</key>
+		<data>
+		p+P7NNSAcjwH0MlD/rbIbobSkjw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_play.png</key>
+		<data>
+		edoCa0410MXGInTNU8AiTp31XRQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/gradient_play_gray.png</key>
+		<data>
+		ErpuqXjmTGbf9EyJy7t5FAusC2Y=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/info.png</key>
+		<data>
+		xg6wlkrO475wDYDXYu0KljmajmA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/info_small.png</key>
+		<data>
+		BSZDdHm3376Gu716fS5YfP11BXg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/invisible.png</key>
+		<data>
+		lkMZ4wGZ4Mpckr/4piyJbTcvTTg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_computer_status_complete.png</key>
+		<data>
+		baCTkh+p/2UPz+4tF8JJ9z770Yc=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_computer_status_offline.png</key>
+		<data>
+		9tf1djEZF0EGT4uwIk+lrq2Uphg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_computer_status_safe.png</key>
+		<data>
+		SJlCo1Dpt1dV0T4Jj9SvbgiJvic=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_computer_status_severe.png</key>
+		<data>
+		Z6hclfJ0ZfL7Rr1J2CgpSxfaT9A=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_computer_status_warning.png</key>
+		<data>
+		awaFSUTGQnBF7wKNe4TrG4KCrO8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_icon_clicked.png</key>
+		<data>
+		IWwi77To3/BWWjly0NqzYpOsJ18=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_active_anim0.png</key>
+		<data>
+		+EKescXvoEYFKbBlFzImdBLyabE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_complete.png</key>
+		<data>
+		GgGdq7m8AKLfZIBIVjSBEGlK5wY=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_complete_alert.png</key>
+		<data>
+		9J5+L0O85EBfo1h8yruf9d571w0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_gray.png</key>
+		<data>
+		a1sXP5wIS2qjtuwXoiFfh89NZ0g=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_paused.png</key>
+		<data>
+		LI9+A/mxn2821OsJRSE7WeFc+X8=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_safe.png</key>
+		<data>
+		+EKescXvoEYFKbBlFzImdBLyabE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_safe_alert.png</key>
+		<data>
+		9J5+L0O85EBfo1h8yruf9d571w0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_severe.png</key>
+		<data>
+		+EKescXvoEYFKbBlFzImdBLyabE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_severe_alert.png</key>
+		<data>
+		9J5+L0O85EBfo1h8yruf9d571w0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_warning.png</key>
+		<data>
+		+EKescXvoEYFKbBlFzImdBLyabE=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_cp_status_warning_alert.png</key>
+		<data>
+		9J5+L0O85EBfo1h8yruf9d571w0=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_info.png</key>
+		<data>
+		xg6wlkrO475wDYDXYu0KljmajmA=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_info_small.png</key>
+		<data>
+		BSZDdHm3376Gu716fS5YfP11BXg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_invisible.png</key>
+		<data>
+		lkMZ4wGZ4Mpckr/4piyJbTcvTTg=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_pause.png</key>
+		<data>
+		pekUmIXbBYS+cnXYuXrBe93tUwU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_pause_gray.png</key>
+		<data>
+		p+P7NNSAcjwH0MlD/rbIbobSkjw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_play.png</key>
+		<data>
+		edoCa0410MXGInTNU8AiTp31XRQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/no_animation_play_gray.png</key>
+		<data>
+		ErpuqXjmTGbf9EyJy7t5FAusC2Y=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/pause.png</key>
+		<data>
+		pekUmIXbBYS+cnXYuXrBe93tUwU=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/pause_gray.png</key>
+		<data>
+		p+P7NNSAcjwH0MlD/rbIbobSkjw=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/play.png</key>
+		<data>
+		edoCa0410MXGInTNU8AiTp31XRQ=
+		</data>
+		<key>Resources/CrashPlan menu bar.app/Contents/Resources/play_gray.png</key>
+		<data>
+		ErpuqXjmTGbf9EyJy7t5FAusC2Y=
+		</data>
+		<key>Resources/CrashPlanDesktop.icns</key>
+		<data>
+		na416ysTHJrQDZ+Hy0H2Cv0bBIQ=
+		</data>
+		<key>Resources/Java/bin/restart.sh</key>
+		<data>
+		fs8HcgbwPGjGNKIlO+QgCcZbW9c=
+		</data>
+		<key>Resources/Java/conf/custom_sample.properties</key>
+		<data>
+		2lTK1Xy+Q0p3CFQTSf7h1JXG0G8=
+		</data>
+		<key>Resources/Java/conf/default.service.xml</key>
+		<data>
+		5XQkGMMszemT03mEcMAvnYVSndE=
+		</data>
+		<key>Resources/Java/conf/service.log.properties</key>
+		<data>
+		bkKy0dnnefCsSVEXZ9dgU3o+VZg=
+		</data>
+		<key>Resources/Java/conf/ui.log.properties</key>
+		<data>
+		Gz/SplwF5TqG3Upx8mVZ3tt7bRg=
+		</data>
+		<key>Resources/Java/conf/ui.properties</key>
+		<data>
+		OM5+k1yn32mQP9Gz/iK2Iqe/vAw=
+		</data>
+		<key>Resources/Java/conf/upgradeui.log.properties</key>
+		<data>
+		QKM1NEL6MkMp0OCioE0ZPRVw3ps=
+		</data>
+		<key>Resources/Java/conf/upgradeui.properties</key>
+		<data>
+		/12EG4zR8wrobHdxQoIjsCWk9cQ=
+		</data>
+		<key>Resources/Java/jniwrap.lic</key>
+		<data>
+		E8OLImrr7xGMDYqP1QdHZ4ZTo60=
+		</data>
+		<key>Resources/Java/lang/txt.properties</key>
+		<data>
+		bXI6ImTknU59jjngkQZzNrGuglY=
+		</data>
+		<key>Resources/Java/lang/txt_ca.properties</key>
+		<data>
+		EfywQg78rzmsu9iLsgGyxenKsg8=
+		</data>
+		<key>Resources/Java/lang/txt_da.properties</key>
+		<data>
+		dp3YVuTaUt+h4RWyAYnpWdsnJDE=
+		</data>
+		<key>Resources/Java/lang/txt_de.properties</key>
+		<data>
+		3iOYnmPB6kdzlLpXvLHrlMJo6Dw=
+		</data>
+		<key>Resources/Java/lang/txt_en.properties</key>
+		<data>
+		5LOoLQQhOzh8kcqxs+dgyk1uF1I=
+		</data>
+		<key>Resources/Java/lang/txt_es.properties</key>
+		<data>
+		3HB4Xm4dKPBLEfu1ZWzCfpePl7g=
+		</data>
+		<key>Resources/Java/lang/txt_es_AR.properties</key>
+		<data>
+		sNPftwbnkuMIo5XRmvhekhJih64=
+		</data>
+		<key>Resources/Java/lang/txt_es_ES.properties</key>
+		<data>
+		+7lgcDSxmMx7yxJ3KQoXAEcW6Cs=
+		</data>
+		<key>Resources/Java/lang/txt_es_MX.properties</key>
+		<data>
+		mknSE3p2AEtOSkn9Rgi8b/tYb8M=
+		</data>
+		<key>Resources/Java/lang/txt_fi.properties</key>
+		<data>
+		RzYAQAIxXc8MDxTgZTmPM4koNy8=
+		</data>
+		<key>Resources/Java/lang/txt_fr.properties</key>
+		<data>
+		xnVJUCozjKODQ/E6Aavg+O/++QM=
+		</data>
+		<key>Resources/Java/lang/txt_hu.properties</key>
+		<data>
+		A1by72ZqTAcjVNyqqpUMWbZKSik=
+		</data>
+		<key>Resources/Java/lang/txt_it.properties</key>
+		<data>
+		PRbdgKXhTmTbuPJ0xIpPhBr9WeE=
+		</data>
+		<key>Resources/Java/lang/txt_ja.properties</key>
+		<data>
+		L1xs2njPrcwCHmkH0/K46GxqM+8=
+		</data>
+		<key>Resources/Java/lang/txt_nl.properties</key>
+		<data>
+		8Elp8e8MlLe69Cy7BhT3pB3fWkY=
+		</data>
+		<key>Resources/Java/lang/txt_no.properties</key>
+		<data>
+		Z4vL0WdG2QL7Otgdx4QY4shtXcM=
+		</data>
+		<key>Resources/Java/lang/txt_pl.properties</key>
+		<data>
+		Xwz5My2tqlc8fLmdOeTbX325Uug=
+		</data>
+		<key>Resources/Java/lang/txt_pt.properties</key>
+		<data>
+		qXbWEgxUFl/aPcOe2ED5tfb3lZM=
+		</data>
+		<key>Resources/Java/lang/txt_pt_BR.properties</key>
+		<data>
+		Js3wTp5T27o6ToTsi+qtJOWAsbg=
+		</data>
+		<key>Resources/Java/lang/txt_sv.properties</key>
+		<data>
+		173U6s4Y6BRBEdwEakyYcG/6TQw=
+		</data>
+		<key>Resources/Java/lang/txt_th.properties</key>
+		<data>
+		q+q7lnCtCr60i/Bw6emwUof9BY0=
+		</data>
+		<key>Resources/Java/lang/txt_tr.properties</key>
+		<data>
+		CFcpKonFxQRSWLUdhVXY9ySTsoE=
+		</data>
+		<key>Resources/Java/lang/txt_zh.properties</key>
+		<data>
+		SKIKwzduJFgUHlH9Nvi24qh4AQM=
+		</data>
+		<key>Resources/Java/lang/txt_zh_TW.properties</key>
+		<data>
+		SXtX+9Amzvo3J3wFZi2bJDvtlYk=
+		</data>
+		<key>Resources/Java/lib/c42_protolib.jar</key>
+		<data>
+		acTEcZRQNMX+hreNAM/LVJWTTfw=
+		</data>
+		<key>Resources/Java/lib/com.backup42.desktop.jar</key>
+		<data>
+		QxE6tmZKpergC6Rg5hM5fX7uWa8=
+		</data>
+		<key>Resources/Java/lib/com.jniwrapper.jniwrap.jar</key>
+		<data>
+		UsDiwplaeq5VGrv0MwwFacD2+jI=
+		</data>
+		<key>Resources/Java/lib/com.jniwrapper.macpack.jar</key>
+		<data>
+		EIVzXfPAuURl1Hl6qdDo4Hr/Cio=
+		</data>
+		<key>Resources/Java/lib/com.jniwrapper.winpack.jar</key>
+		<data>
+		hEN1PbkpKnyeBzr61jcpElfmq/g=
+		</data>
+		<key>Resources/Java/lib/commons-jxpath-1.1.jar</key>
+		<data>
+		ZS47a/hpkyKFU/oEXgIJzyBbieU=
+		</data>
+		<key>Resources/Java/lib/jna-3.2.5.jar</key>
+		<data>
+		KErn5alx5Ue5QxNmLSHb1h2q0/g=
+		</data>
+		<key>Resources/Java/lib/json-20070829.jar</key>
+		<data>
+		iRkP93tXIDw0F1VfMiJpmNqX/zg=
+		</data>
+		<key>Resources/Java/lib/json-lib-2.4.jar</key>
+		<data>
+		E2dD4NEt9OeF5itIYYzuFpsq5UY=
+		</data>
+		<key>Resources/Java/lib/jtux.jar</key>
+		<data>
+		vY4qOnuHDe4gsRvElI9kKHc/mgk=
+		</data>
+		<key>Resources/Java/lib/log4j-1.2.16.jar</key>
+		<data>
+		AnjJ0K4CEyq20A5wmSbCJwIuhaQ=
+		</data>
+		<key>Resources/Java/lib/miglayout15-swt.jar</key>
+		<data>
+		cYjiS82E037beUbozh0yg0xhrPc=
+		</data>
+		<key>Resources/Java/lib/org.eclipse.core.commands_3.6.1.v20120814-150512.jar</key>
+		<data>
+		xjtuCg/VXGJnMPbhg5SRUKf0n0Y=
+		</data>
+		<key>Resources/Java/lib/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar</key>
+		<data>
+		+vzy2wkRJgxtRSvKL/C9VVNM73g=
+		</data>
+		<key>Resources/Java/lib/org.eclipse.jface_3.8.101.v20120817-083647.jar</key>
+		<data>
+		6Q7LR5WEzY6goDEHPLt8FBfMl0Y=
+		</data>
+		<key>Resources/Java/lib/org.eclipse.osgi_3.8.1.v20120830-144521.jar</key>
+		<data>
+		bRyPih4M8YnH+g2Sg63icPy4P0Y=
+		</data>
+		<key>Resources/Java/lib/protobuf-java-2.4.1.jar</key>
+		<data>
+		iyzl6KXyQk8bikrP60ipf6I3hN4=
+		</data>
+		<key>Resources/Java/lib/rhino-1.7r3.jar</key>
+		<data>
+		k58F5PNgXeZ8JxeDfzDZ/VdYc90=
+		</data>
+		<key>Resources/Java/lib/sbbi-upnplib-1.0.4.jar</key>
+		<data>
+		oygjAfI8yq9W/6uDUULA5ke8lPI=
+		</data>
+		<key>Resources/Java/lib/slf4j-api-1.6.1.jar</key>
+		<data>
+		N+x7n0ZAxSWjsAtvysnMyZ82HtM=
+		</data>
+		<key>Resources/Java/lib/slf4j-log4j12-1.6.1.jar</key>
+		<data>
+		6v7QPoxGK1KzMjaOCLvjBc/BLVE=
+		</data>
+		<key>Resources/Java/lib/swt-64.jar</key>
+		<data>
+		0qDhxovux4PP3dphUYYObJce0K8=
+		</data>
+		<key>Resources/Java/lib/swt.jar</key>
+		<data>
+		YeDNlSk3c/DxQ7DdCOzjMcGHNBY=
+		</data>
+		<key>Resources/Java/lib/trove-3.0.2.jar</key>
+		<data>
+		xlhg/TcAZjpu2HBgX5Jtdw870tQ=
+		</data>
+		<key>Resources/Java/lib/twitter4j.jar</key>
+		<data>
+		/TL2pFhAW83Xe2jQxgmaZSA9oAk=
+		</data>
+		<key>Resources/Java/libcpnative.dylib</key>
+		<data>
+		fO9q4lovOeFRAVjBfAgouHpHQfM=
+		</data>
+		<key>Resources/Java/libidletime.dylib</key>
+		<data>
+		2xqquF6KtRBHJL1zIJ9CGwPlE04=
+		</data>
+		<key>Resources/Java/libidletime64.dylib</key>
+		<data>
+		R3fHmopmtvo88tKbLKXkXVpgPLY=
+		</data>
+		<key>Resources/Java/libjniwrap.dylib</key>
+		<data>
+		FV2wvey59VWV9uhLZz76QhHPeUM=
+		</data>
+		<key>Resources/Java/libjtux.dylib</key>
+		<data>
+		BcU7YC0Mm4UF5rExQBjFzQ+ERro=
+		</data>
+		<key>Resources/Java/libjtux64.dylib</key>
+		<data>
+		zeeJq2T7XBHKm8VmjN9synhF5v8=
+		</data>
+		<key>Resources/Java/libmd5.dylib</key>
+		<data>
+		biwk9Mpvpjc4ZC48CU4EZ5dCIy4=
+		</data>
+		<key>Resources/Java/libmd564.dylib</key>
+		<data>
+		pu4xCny01I2Pdi8oKRJztDjOyu8=
+		</data>
+		<key>Resources/Java/skin/icon_app_128x128.png</key>
+		<data>
+		Uvj/f0G85ypAYpat3ZnK22UQo/8=
+		</data>
+		<key>Resources/Java/skin/icon_app_16x16.png</key>
+		<data>
+		7ucNradmFlipX/r3je6tjnVcuOo=
+		</data>
+		<key>Resources/Java/skin/icon_app_32x32.png</key>
+		<data>
+		3IXTTw1amOaPbHKZTcThK4AjKak=
+		</data>
+		<key>Resources/Java/skin/icon_app_64x64.png</key>
+		<data>
+		QLamb8VZ18/PJ7L9s9SCpRKUnO8=
+		</data>
+		<key>Resources/Java/skin/logo_main.png</key>
+		<data>
+		43fLCAItJKlXklnSCo1gpTKkfW0=
+		</data>
+		<key>Resources/Java/skin/skin.properties</key>
+		<data>
+		KDo70R3iUzlQgH+WkL2cZzl3hyI=
+		</data>
+		<key>Resources/Java/skin/splash_default.png</key>
+		<data>
+		MY5HujgC85gYx0vC7xPBtq0HWFM=
+		</data>
+		<key>Resources/Java/skin/splash_plus.png</key>
+		<data>
+		tZ2s7ul2lmCqjXRUtrCYkaf5HOc=
+		</data>
+		<key>Resources/Java/skin/window_bg.jpg</key>
+		<data>
+		BZe32YfvhuNm1oCp/Z8GHP0xpl4=
+		</data>
+		<key>Resources/Java/upgrade/start.bat</key>
+		<data>
+		kimilJzq1SVaOCqSXFLNgEGvoUA=
+		</data>
+		<key>Resources/Java/upgrade/start.sh</key>
+		<data>
+		GG2roY8+KeJuxBw+/yUfxxrGUaE=
+		</data>
+		<key>Resources/Java/upgrade/startDesktop.bat</key>
+		<data>
+		oCWFwhEcCbxncnvSupUuk9upG/w=
+		</data>
+		<key>Resources/Java/upgrade/startDesktop.sh</key>
+		<data>
+		jljeMqW9RS/cLPfip5u9raawPTQ=
+		</data>
+		<key>Resources/Java/upgrade/startDesktopLinux.sh</key>
+		<data>
+		B8xoqdWLL8Od6enQVrOprQisbP8=
+		</data>
+		<key>Resources/Java/upgrade/startDesktopSolaris.sh</key>
+		<data>
+		beJwotdHg8oM1/Gkn7kCqLljNU4=
+		</data>
+		<key>Resources/Java/upgrade/startFirst.sh</key>
+		<data>
+		q/FRlmlQAY/hhplkT0V+vrlnb0w=
+		</data>
+		<key>Resources/Java/upgrade/startLinux.sh</key>
+		<data>
+		8nHmyzbCPJ+n7jvEj0xMOHF6G5U=
+		</data>
+		<key>Resources/Java/upgrade/startSolaris.sh</key>
+		<data>
+		gfsLtpJIRThMgVGABmrsG6CP24A=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+command -v sw_vers >/dev/null 2>&1 || { exit 0; }
+
+sudo ln -s `pwd`/crashplan/CrashPlan\ Server.app /Applications/CrashPlan\ Server.app
