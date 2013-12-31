@@ -60,31 +60,16 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>ssh -f -L 4200:localhost:4243 jc@server sleep 5
-nohup /Applications/CrashPlan\ Server.app/Contents/CrashPlan\ Server.app/Contents/MacOS/CrashPlan &amp;</string>
+nohup ~/.dotfiles/crashplan/CrashPlan\ Server.app/Contents/CrashPlan\ Server.app/Contents/MacOS/CrashPlan &amp;
+</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
 					<integer>0</integer>
 					<key>shell</key>
-					<string>/bin/zsh</string>
+					<string>/bin/bash</string>
 					<key>source</key>
 					<string></string>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>COMMAND_STRING</key>
-					<string>ssh -f -L 4200:localhost:4243 jc@server sleep 30
-nohup /Applications/CrashPlan\ Server.app/Contents/CrashPlan\ Server.app/Contents/MacOS/CrashPlan &amp;</string>
-					<key>CheckedForUserDefaultShell</key>
-					<true/>
-					<key>inputMethod</key>
-					<integer>0</integer>
-					<key>shell</key>
-					<string>/bin/zsh</string>
-					<key>source</key>
-					<string></string>
-					<key>temporary items path</key>
-					<string>/var/folders/tt/8yxh_h716l50gynsbyy3qr180000gq/T/80068EA6-E8F5-4C09-B08C-987B2FABA489/1/com.apple.RunShellScript</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
@@ -193,7 +178,7 @@ nohup /Applications/CrashPlan\ Server.app/Contents/CrashPlan\ Server.app/Content
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:466.000000</string>
+				<string>309.500000:554.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
