@@ -61,3 +61,7 @@ export GITHUB_USER=itsthejb
 
 # Other aliases
 alias xclean=rm\ -rf\ ~/Library/Developer/Xcode/DerivedData
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+source /Users/jc/.rvm/scripts/rvm
+
