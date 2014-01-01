@@ -5,7 +5,7 @@ command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 # OSX Tools
 pushd ~/.dotfiles/submodules/tools-osx
 rake && sudo rake install
-rm -rf ~/.dotfiles/submodules/tools-osx/bin
+rake clean
 popd
 
 # Docs Dropbox
