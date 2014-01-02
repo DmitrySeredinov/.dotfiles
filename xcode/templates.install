@@ -1,5 +1,7 @@
 #!/bin/bash
 
+command -v sw_vers >/dev/null 2>&1 || { exit 0; }
+
 function install {
 	REPO=$1
 	DEST=$2
@@ -9,3 +11,8 @@ function install {
 
 install git@github.com:itsthejb/Xcode-Templates.git ~/Library/Developer/Xcode/Templates
 install git@github.com:itsthejb/Xcode-Snippets.git ~/Library/Developer/Xcode/UserData/CodeSnippets/
+
+DEST=~/Library/Developer/Xcode/UserData/xcdebugger
+if [ -e "$DEST" ]; then rm -rf "$DEST"; fi
+mkdir -p ~/Library/Developer/Xcode/UserData
+ln -s ~/.dotfiles/xcode/xcdebugger ~/Library/Developer/Xcode/UserData/xcdebugger
