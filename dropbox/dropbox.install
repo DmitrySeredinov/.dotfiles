@@ -1,0 +1,8 @@
+#!/bin/bash
+
+command -v defaults >/dev/null 2>&1 || { exit 0; }
+
+sudo cp -R Dropbox\ Others.app /Applications
+rm -rf "~/DropBox\ Other" &> /dev/null
+defaults write loginwindow AutoLaunchedApplicationDictionary -array-add '{ "Path" = "/Applications/Dropbox\ Others.app"; "Hide" = 0; }'
+open /Applications/Dropbox\ Others.app
