@@ -13,13 +13,18 @@ fi
 
 SETTINGS=$DROPBOX/$RELATIVE
 APP_SUPPORT=$SETTINGS/AppSupport.dat
+PREFS=$SETTINGS/Preferences
 
-if [ ! -f "$APP_SUPPORT" ]; then
+if [ ! -e "$APP_SUPPORT" ]; then
 	echo Could not read map from $APP_SUPPORT
 	exit 1
 fi
+if [ ! -e "$SETTINGS" ]; then
+	echo Could not read preferences from "$SETTINGS"
+	exit 1
+fi
 
-echo Symlinking Application Support...
+#echo Symlinking Application Support...
 
 while read -r LINE
 do
@@ -29,7 +34,6 @@ do
 	DEST=`eval echo ${PARAMS[1]}`
 
 #	echo Link "'${PARAMS[0]}'" to "'$DEST'"...
-
 	if [ ! -d "$SOURCE" ]; then
 #		echo Source path "$SOURCE" does not exist... Aborting
 		exit 1
@@ -50,3 +54,10 @@ do
     fi
 
 done < "$APP_SUPPORT"
+
+# Preferences
+for PREF in "$PREFS/*"; do
+	DEST=~/Library/Preferences/`basename $PREF`
+	rm $DEST &> /dev/null
+	ln -s $PREF $DEST
+done
