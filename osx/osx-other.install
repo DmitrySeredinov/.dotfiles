@@ -20,11 +20,7 @@ trashIfExists "$DEST"
 ln -s ~/Dropbox/Documents "$DEST"
 
 # Popclip Extensions
-POPCLIP=~/Library/Application\ Support/PopClip
-POP_EXT=$POPCLIP/Extensions
-trashIfExists "$POPCLIP"
-mkdir -p "$POPCLIP"
-ln -s ~/Dropbox/Data/Settings/PopClip "$POPCLIP"
-mv "$POPCLIP/PopClip" "$POPCLIP/Extensions"
-trashIfExists "$POP_EXT/Extensions.plist"
-open ~/Library/Application\ Support/PopClip/Extensions/*
+POP_BOX=~/Dropbox/Data/Settings/PopClip
+TMP=`mktemp -d /tmp/XXXXXXXXXX`
+cp $POP_BOX/*.popclipextz $TMP
+open $TMP/*.popclipextz
