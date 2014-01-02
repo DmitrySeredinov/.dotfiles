@@ -2,15 +2,29 @@
 
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 
+function trashIfExists {
+	if [ -e "$1" ]; then 
+		trash "$1" >/dev/null
+	fi
+}
+
 # OSX Tools
-pushd ~/.dotfiles/submodules/tools-osx
-rake && sudo rake install
-rake clean
-popd
+pushd ~/.dotfiles/submodules/tools-osx >/dev/null
+rake && sudo rake install >/dev/null
+rake clean >/dev/null
+popd >/dev/null
 
 # Docs Dropbox
-if [ -e "~/Documents" ]; then
-  trash "~/Documents"
-fi
+DEST=~/Documents
+trashIfExists "$DEST"
+ln -s ~/Dropbox/Documents "$DEST"
 
-ln -s ~/Dropbox/Documents ~/Documents
+# Popclip Extensions
+POPCLIP=~/Library/Application\ Support/PopClip
+POP_EXT=$POPCLIP/Extensions
+trashIfExists "$POPCLIP"
+mkdir -p "$POPCLIP"
+ln -s ~/Dropbox/Data/Settings/PopClip "$POPCLIP"
+mv "$POPCLIP/PopClip" "$POPCLIP/Extensions"
+trashIfExists "$POP_EXT/Extensions.plist"
+open ~/Library/Application\ Support/PopClip/Extensions/*
