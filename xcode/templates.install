@@ -1,0 +1,11 @@
+#!/bin/bash
+
+function install {
+	REPO=$1
+	DEST=$2
+	rm -rf $DEST
+	git clone $REPO $DEST
+}
+
+install git@github.com:itsthejb/Xcode-Templates.git ~/Library/Developer/Xcode/Templates
+install git@github.com:itsthejb/Xcode-Snippets.git ~/Library/Developer/Xcode/UserData/CodeSnippets/
