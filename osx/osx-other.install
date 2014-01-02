@@ -16,7 +16,7 @@ popd >/dev/null
 
 # Docs Dropbox
 DEST=~/Documents
-trashIfExists "$DEST"
+sudo rm -rf "$DEST" > /dev/null
 ln -s ~/Dropbox/Documents "$DEST"
 
 # Popclip Extensions
