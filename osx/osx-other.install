@@ -9,10 +9,11 @@ function trashIfExists {
 }
 
 # OSX Tools
-pushd ~/.dotfiles/submodules/tools-osx >/dev/null
-rake && sudo rake install >/dev/null
-rake clean >/dev/null
-popd >/dev/null
+pushd ~/.dotfiles/submodules/tools-osx &> /dev/null
+rake > /dev/null
+sudo rake install &> /dev/null
+rake clean &> /dev/null
+popd &> /dev/null
 
 # Docs Dropbox
 DEST=~/Documents

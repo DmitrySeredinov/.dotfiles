@@ -6,7 +6,7 @@ function install {
 	REPO=$1
 	DEST=$2
 	rm -rf $DEST
-	git clone $REPO $DEST
+	git clone $REPO $DEST &> /dev/null
 }
 
 install git@github.com:itsthejb/Xcode-Templates.git ~/Library/Developer/Xcode/Templates
