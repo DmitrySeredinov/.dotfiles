@@ -3,7 +3,8 @@
 
 [core]
   excludesfile = ~/.gitignore
-  editor       = /usr/bin/vim
+  # editor       = /usr/bin/vim
+	editor = /usr/local/bin/edit -w
   trustctime   = false
 
 [alias]
