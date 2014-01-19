@@ -3,8 +3,7 @@
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 
 DROPBOX=~/Dropbox
-APP_DATA=$DROPBOX/.AppSupport
-RELATIVE=`cat $APP_DATA 2>/dev/null`
+RELATIVE=Data/Settings
 
 if [ -z "$RELATIVE" ]; then
 	echo Could not read relative path from $APP_DATA
