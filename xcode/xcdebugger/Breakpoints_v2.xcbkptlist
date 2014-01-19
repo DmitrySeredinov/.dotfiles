@@ -15,7 +15,7 @@
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
                   <ActionContent
-                     consoleCommand = "ignore_specified_objc_exceptions name:NSInternalInconsistencyException name:NSInvalidArgumentException">
+                     consoleCommand = "ignore_specified_objc_exceptions name:NSInternalInconsistencyException name:NSInternalInconsistencyException name:NSInvalidArgumentException">
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>
