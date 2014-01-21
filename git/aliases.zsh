@@ -13,3 +13,6 @@ compdef _git gl=git-log
 
 alias gs='git status'
 compdef _git gs=git-status
+
+alias gb='git branch'
+compdef _git gb=git-branch
