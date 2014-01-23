@@ -8,15 +8,15 @@
   trustctime   = false
 
 [alias]
-  co    = checkout
-  cl    = clone --recursive
-  st    = status
-  subup = submodule update --recursive --init
-  hub   = !hub
+  co    	= checkout
+  cl    	= clone --recursive
+  st    	= status
+  subup 	= submodule update --recursive --init
+  hub   	= !hub
   ignore 	= !git update-index --assume-unchanged
   unignore 	= !git update-index --no-assume-unchanged
   ignored 	= !git ls-files -v | grep ^[a-z]
-	brush = !git branch --merged | grep -v \\* | xargs git branch -D
+  brush 	= !git branch --merged | grep -v \\* | xargs git branch -D
 
 [color]
   branch = auto
