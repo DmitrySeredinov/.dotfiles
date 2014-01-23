@@ -17,6 +17,7 @@
   unignore 	= !git update-index --no-assume-unchanged
   ignored 	= !git ls-files -v | grep ^[a-z]
   brush 	= !git branch --merged | grep -v \\* | xargs git branch -D
+  sco		= "!f() { git stash; git checkout $1; git stash pop; }; f"
 
 [color]
   branch = auto
