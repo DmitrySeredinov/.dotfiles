@@ -25,3 +25,6 @@ POP_BOX=~/Dropbox/Data/Settings/PopClip
 TMP=`mktemp -d /tmp/XXXXXXXXXX`
 cp $POP_BOX/*.popclipextz $TMP
 open $TMP/*.popclipextz
+
+# User agents
+cp -f ~/.dotfiles/osx/user-agents/* ~/Library/LaunchAgents
