@@ -1,7 +1,8 @@
 #!/bin/sh
 
+DROPBOX=~/Dropbox\ \(Personal\)
 PATH=$PATH:/usr/local/bin
 
-/usr/local/bin/brew list | tr '\n' ' ' > /Users/jc/Dropbox/Data/Settings/brew.lst  
-/usr/local/bin/brew cask list | tr '\n' ' ' > /Users/jc/Dropbox/Data/Settings/brew-cask.lst
+/usr/local/bin/brew list | tr '\n' ' ' > $DROPBOX/Data/Settings/brew.lst  
+/usr/local/bin/brew cask list | tr '\n' ' ' > $DROPBOX/Data/Settings/brew-cask.lst
 

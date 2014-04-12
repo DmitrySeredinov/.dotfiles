@@ -1,7 +1,9 @@
 #!/bin/sh
 
+DROPBOX=~/Dropbox\ \(Personal\)
+
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 
 TMP_DIR=`mktemp -d /tmp/services.XXXXXXXXXX`
-cp -R ~/Dropbox/Data/Settings/Services/* "$TMP_DIR"
+cp -R $DROPBOX/Data/Settings/Services/* "$TMP_DIR"
 open $TMP_DIR/*
