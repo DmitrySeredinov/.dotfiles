@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DROPBOX=~/Dropbox\ \(Personal\)
+DROPBOX="~/Dropbox\ \(Personal\)"
 
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 

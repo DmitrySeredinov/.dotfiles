@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DROPBOX=~/Dropbox\ \(Personal\)
+DROPBOX="~/Dropbox\ \(Personal\)"
 
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 
@@ -25,7 +25,7 @@ ln -s "$DROPBOX/Documents" "$DEST"
 # Popclip Extensions
 POP_BOX="$DROPBOX/Data/Settings/PopClip"
 TMP=`mktemp -d /tmp/XXXXXXXXXX`
-cp $POP_BOX/*.popclipextz $TMP
+cp "$POP_BOX/*.popclipextz" $TMP
 open $TMP/*.popclipextz
 
 # User agents

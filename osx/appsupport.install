@@ -2,21 +2,23 @@
 
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 
-DROPBOX=~/Dropbox
-APP_DATA="$DROPBOX/.AppSupport"
-RELATIVE=`cat $APP_DATA 2>/dev/null`
+DROPBOX=~/Dropbox\ \(Personal\)
+APP_DATA=$DROPBOX/.AppSupport
+RELATIVE=`cat "$APP_DATA" 2>/dev/null`
 
 if [ -z "$RELATIVE" ]; then
 	echo Could not read relative path from $APP_DATA
 	exit 1
 fi
 
-SETTINGS="$DROPBOX/$RELATIVE"
-APP_SUPPORT="$SETTINGS/AppSupport.dat"
+SETTINGS=$DROPBOX/$RELATIVE
+APP_SUPPORT=$SETTINGS/AppSupport.dat
 
 if [ ! -f "$APP_SUPPORT" ]; then
 	echo Could not read map from $APP_SUPPORT
 	exit 1
+else
+  echo Map at $APP_SUPPORT...
 fi
 
 echo Symlinking Application Support...
@@ -24,29 +26,32 @@ echo Symlinking Application Support...
 while read -r LINE
 do
 	IFS=',' read -a PARAMS <<< "${LINE}"
-	
-	SOURCE=`eval echo $SETTINGS/${PARAMS[0]}`
-	DEST=`eval echo ${PARAMS[1]}`
-
-#	echo Link "'${PARAMS[0]}'" to "'$DEST'"...
+  
+	echo "-> $LINE"
+  echo ${PARAMS[0]}
+  echo ${PARAMS[1]}
+  echo ${PARAMS[2]}
+	SOURCE="$SETTINGS/${PARAMS[0]}"
+	DEST=${PARAMS[1]}
+	echo Link "'$SOURCE'" to "'$DEST'"...
 
 	if [ ! -d "$SOURCE" ]; then
-#		echo Source path "$SOURCE" does not exist... Aborting
+		echo Source path "$SOURCE" does not exist... Aborting
 		exit 1
 	fi
 
 	if [ -e "$DEST" ]; then
-#		echo Destination "$DEST" exists. Deleting...
+		echo Destination "$DEST" exists. Deleting...
 		rm -rf "$DEST"
 	fi	
 
-	ln -s "$SOURCE" "$DEST"
+	echo ln -s "'$SOURCE'" "'$DEST'"
 	if [ $? -ne 0 ]; then
         echo "Linking failed. Aborting..."
         exit 1
- #   else
- #   	echo "Linked"
- #   	echo
+    else
+    	echo "Linked"
+    	echo
     fi
 
 done < "$APP_SUPPORT"

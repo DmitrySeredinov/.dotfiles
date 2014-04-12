@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DROPBOX=~/Dropbox\ \(Personal\)
+DROPBOX="~/Dropbox\ \(Personal\)"
 PATH=$PATH:/usr/local/bin
 
 /usr/local/bin/brew list | tr '\n' ' ' > "$DROPBOX/Data/Settings/brew.lst"
