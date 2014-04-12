@@ -42,8 +42,8 @@
   algorithm = patience
 
 [user]
-  name = Jonathan Crooke
-  email = joncrooke@gmail.com
+	name = Jonathan Crooke
+	email = joncrooke@gmail.com
 
 [merge]
   tool = opendiff
