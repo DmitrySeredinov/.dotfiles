@@ -1,4 +1,0 @@
-#!/bin/bash
-
-$HOME/.dotfiles/dropbox/dropbox.sh &
-
