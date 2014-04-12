@@ -10,6 +10,9 @@ function trashIfExists {
 	fi
 }
 
+# OSX Docs
+ln -s $DROPBOX/Documents ~
+
 # OSX Tools
 pushd ~/.dotfiles/submodules/tools-osx &> /dev/null
 rake > /dev/null
