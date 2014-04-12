@@ -10,9 +10,6 @@ function trashIfExists {
 	fi
 }
 
-# OSX Docs
-ln -s $DROPBOX/Documents ~
-
 # OSX Tools
 pushd ~/.dotfiles/submodules/tools-osx &> /dev/null
 rake > /dev/null
@@ -23,10 +20,10 @@ popd &> /dev/null
 # Docs Dropbox
 DEST=~/Documents
 sudo rm -rf "$DEST" > /dev/null
-ln -s $DROPBOX/Documents "$DEST"
+ln -s "$DROPBOX/Documents" "$DEST"
 
 # Popclip Extensions
-POP_BOX=$DROPBOX/Data/Settings/PopClip
+POP_BOX="$DROPBOX/Data/Settings/PopClip"
 TMP=`mktemp -d /tmp/XXXXXXXXXX`
 cp $POP_BOX/*.popclipextz $TMP
 open $TMP/*.popclipextz
