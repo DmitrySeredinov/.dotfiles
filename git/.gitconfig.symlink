@@ -17,6 +17,7 @@
   unignore 	= !git update-index --no-assume-unchanged
   ignored 	= !git ls-files -v | grep ^[a-z]
   brush 	= !git branch --merged | grep -v \\* | xargs git branch -D
+  pullify = !git config --add remote.origin.fetch '+refs/pull/*/head:refs/remotes/origin/pr/*' && git fetch
 
 [color]
   branch = auto
