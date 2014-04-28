@@ -1,6 +1,7 @@
 #!/bin/sh
 
-DROPBOX="~/Dropbox\ \(Personal\)"
+DROPBOX=~/Dropbox\ \(Personal\)
+DROPBOX_ESC="~/Dropbox (Personal)"
 
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 
@@ -12,6 +13,7 @@ function trashIfExists {
 
 # OSX Tools
 pushd ~/.dotfiles/submodules/tools-osx &> /dev/null
+git clean -dff &> /dev/null
 rake > /dev/null
 sudo rake install &> /dev/null
 rake clean &> /dev/null
@@ -23,9 +25,10 @@ sudo rm -rf "$DEST" > /dev/null
 ln -s "$DROPBOX/Documents" "$DEST"
 
 # Popclip Extensions
-POP_BOX="$DROPBOX/Data/Settings/PopClip"
+POP_BOX=$DROPBOX_ESC/Data/Settings/PopClip
+echo $POP_BOX
 TMP=`mktemp -d /tmp/XXXXXXXXXX`
-cp "$POP_BOX/*.popclipextz" $TMP
+cp '$POP_BOX/*.popclipextz' $TMP
 open $TMP/*.popclipextz
 
 # User agents
