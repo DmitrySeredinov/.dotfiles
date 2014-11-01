@@ -35,12 +35,17 @@ do
 		exit 1
 	fi
 
-	if [ -e "$DEST" ]; then
-		echo Destination "$DEST" exists. Deleting...
+	if [ -d "$DEST" ]; then
+		echo Destination directory "$DEST" exists. Deleting...
 		rm -rf "$DEST"
 	fi	
 
-	ln -s "$SOURCE" "$DEST"
+	if [ -f "$DEST" ]; then
+		echo Destination file "$DEST" exists. Deleting...
+		rm -f "$DEST"
+	fi	
+
+	ln -Fs "$SOURCE" "$DEST"
 	if [ $? -ne 0 ]; then
         echo "Linking failed. Aborting..."
         exit 1
