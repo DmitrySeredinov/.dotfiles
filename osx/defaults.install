@@ -181,7 +181,8 @@ defaults write com.apple.dock workspaces-edge-delay -float 1.0
 ### Screen Shots
 
 # Move screen shots to ~/Screen Shots
-defaults write com.apple.screencapture location -string '~/Dropbox (Personal)/Screenshots'
+DROPBOX=`cat ~/.dotfiles/osx/dropbox.location`
+defaults write com.apple.screencapture location -string '$DROPBOX/Screenshots'
 
 # Textwrangler
 
