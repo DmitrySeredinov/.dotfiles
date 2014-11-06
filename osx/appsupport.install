@@ -2,7 +2,7 @@
 
 command -v sw_vers >/dev/null 2>&1 || { exit 0; }
 
-DROPBOX=`cat ~/.dotfiles/osx/dropbox.location`
+DROPBOX=~/Dropbox
 APP_DATA=$DROPBOX/.AppSupport
 RELATIVE=`cat "$APP_DATA" 2>/dev/null`
 
