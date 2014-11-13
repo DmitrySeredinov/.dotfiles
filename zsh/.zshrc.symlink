@@ -68,6 +68,9 @@ source /Users/jc/.rvm/scripts/rvm
 # Default dir
 cd ~/Desktop
 
+# Tab width
+tabs -2
+
 # Brew cask update solution
 # https://github.com/caskroom/homebrew-cask/issues/309
 alias cask-update='brew update; for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || brew cask install $c; done'
