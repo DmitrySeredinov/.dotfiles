@@ -18,38 +18,11 @@ for file in ${(M)files:#$DOTFILES/zsh/*.zsh}
 for file in ${${files:#$DOTFILES/zsh/*.zsh}:#$DOTFILES/plugins/*.zsh}
   source $file
 
-# NPM
-if which npm &> /dev/null; then
-  export PATH=/usr/local/share/npm/bin:$PATH
-fi
-
-# Cabal
-if [ -d ~/.cabal/bin ]; then
-  export PATH=~/.cabal/bin:$PATH
-fi
-
-# Toast
-if [ -d ~/.toast/armed/bin ]; then
-  export PATH=~/.toast/armed/bin:$PATH
-fi
-
-# Android
-if [ -d /usr/local/Cellar/android-sdk/r20 ]; then
-  export ANDROID_HOME=/usr/local/Cellar/android-sdk/r20
-fi
-
-if [ -d /usr/local/Cellar/android-ndk/r8/ ]; then
-  export ANDROID_NDK_HOME=/usr/local/Cellar/android-ndk/r8/
-fi
-
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 # .dotfiles/bin
 export PATH=$DOTFILES/bin:/usr/local/bin:/usr/local/sbin:$PATH
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # rbenv
 if which rbenv &> /dev/null ; then
@@ -61,9 +34,6 @@ export GITHUB_USER=itsthejb
 
 # Other aliases
 alias xclean=rm\ -rf\ ~/Library/Developer/Xcode/DerivedData
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-source /Users/jc/.rvm/scripts/rvm
 
 # Default dir
 cd ~/Desktop
