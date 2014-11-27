@@ -1,1 +1,6 @@
+# Ignore exceptions
 command script import ~/.dotfiles/lldb/ignore_specified_objc_exceptions.py
+
+# Quicklook
+command script import ~/.dotfiles/submodules/LLDB-QuickLook/lldb_quick_look.py
+command alias ql quicklook

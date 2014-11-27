@@ -4,3 +4,6 @@
 [submodule "submodules/tools-osx"]
 	path = submodules/tools-osx
 	url = git@github.com:morgant/tools-osx.git
+[submodule "submodules/LLDB-QuickLook"]
+	path = submodules/LLDB-QuickLook
+	url = git@github.com:ryanolsonk/LLDB-QuickLook.git
