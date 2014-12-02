@@ -17,8 +17,11 @@
   unignore 	= !git update-index --no-assume-unchanged
   ignored 	= !git ls-files -v | grep ^[a-z]
   brush 	= !git branch --merged | grep -v \\* | xargs git branch -D
-  pullify 	= !git config --add remote.origin.fetch '+refs/pull/*/head:refs/remotes/origin/pr/*' && git fetch
   wdiff		= diff --word-diff
+
+# https://gist.github.com/gnarf/5406589
+  pr  		= "!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
+  pr-clean 	= "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
 
 [color]
   branch = auto
