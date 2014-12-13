@@ -18,7 +18,7 @@
   ignored 	= !git ls-files -v | grep ^[a-z]
   brush 	= !git branch --merged | grep -v \\* | xargs git branch -D
   wdiff		= diff --word-diff
-  get		= "!f() { git co $1 && git fetch upstream && git rebase upstream/$1 && git push origin; }; f"
+  get		= "!f() { git co $1 && git fetch upstream && git rebase upstream/$1 && git push origin && git brush; }; f"
   amend		= "!f() { git add $1 && git commit --amend; }; f"
 
 # https://gist.github.com/gnarf/5406589
