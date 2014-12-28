@@ -22,7 +22,7 @@ for file in ${${files:#$DOTFILES/zsh/*.zsh}:#$DOTFILES/plugins/*.zsh}
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 # .dotfiles/bin
-export PATH=$DOTFILES/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=$PATH:$DOTFILES/bin:/usr/local/bin:/usr/local/sbin
 
 # rbenv
 if which rbenv &> /dev/null ; then
@@ -45,3 +45,5 @@ tabs -2
 # Brew cask update solution
 # https://github.com/caskroom/homebrew-cask/issues/309
 alias cask-update='brew update; for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || brew cask install $c; done'
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
