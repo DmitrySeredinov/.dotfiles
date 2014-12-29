@@ -2,10 +2,9 @@
   path = .dotfiles/secret/.gitconfig
 
 [core]
-  excludesfile = ~/.gitignore
-  # editor       = /usr/bin/vim
-  editor = ~/.dotfiles/bin/mate -w
-  trustctime   = false
+  excludesfile 	= ~/.gitignore
+  editor 		= ~/.dotfiles/bin/mate -w
+  trustctime   	= false
 
 [alias]
   co    	= checkout
@@ -52,16 +51,30 @@
 	name = Jonathan Crooke
 	email = joncrooke@gmail.com
 
+[difftool "Kaleidoscope"]
+    cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[diff]
+    tool = Kaleidoscope
+[difftool]
+    prompt = false
+[mergetool "Kaleidoscope"]
+    cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+    trustExitCode = true
+[mergetool]
+    prompt = false
 [merge]
-  tool = opendiff
-
+    tool = Kaleidoscope
+	
 [hub]
   protocol = git
+  
 [credential]
 	helper = osxkeychain
+	
 [filter "media"]
 	required = true
 	clean = git media clean %f
 	smudge = git media smudge %f
+	
 [pull]
 	rebase = true
