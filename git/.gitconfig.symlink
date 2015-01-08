@@ -5,6 +5,7 @@
   excludesfile 	= ~/.gitignore
   editor 		= ~/.dotfiles/bin/mate -w
   trustctime   	= false
+	pager = less -x3,5
 
 [alias]
   co    	= checkout
