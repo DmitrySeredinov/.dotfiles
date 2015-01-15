@@ -4,3 +4,6 @@ command script import ~/.dotfiles/lldb/ignore_specified_objc_exceptions.py
 # Quicklook
 command script import ~/.dotfiles/submodules/LLDB-QuickLook/lldb_quick_look.py
 command alias ql quicklook
+
+# Chisel
+command script import /usr/local/opt/chisel/libexec/fblldb.py
