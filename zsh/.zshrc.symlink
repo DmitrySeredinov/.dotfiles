@@ -33,8 +33,7 @@ fi
 export GITHUB_USER=itsthejb
 
 # Other aliases
-alias xclean='rm -rf ~/Library/Developer/Xcode/DerivedDat'a
-alias e='eval D=~/dev/EyeEm/EyeEm && if [[ `pwd` != "$D" ]]; then pushd "$D"; fi'
+alias xclean='rm -rf ~/Library/Developer/Xcode/DerivedData'
 
 # Default dir
 cd ~/Desktop
