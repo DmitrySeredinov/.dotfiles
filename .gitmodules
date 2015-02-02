@@ -4,3 +4,6 @@
 [submodule "submodules/tools-osx"]
 	path = submodules/tools-osx
 	url = git@github.com:morgant/tools-osx.git
+[submodule "submodules/mu-repo"]
+	path = submodules/mu-repo
+	url = git@github.com:fabioz/mu-repo.git
